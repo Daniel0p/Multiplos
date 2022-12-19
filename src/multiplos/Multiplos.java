@@ -29,5 +29,7 @@ public class Multiplos {
          System.out.println("Los números multiplos son " + multiplos);
          System.out.println("El resultado es "+ sum);
          System.out.println("Sistema editado v2");
+         
+         System.out.println("Se agrega nueva rama euler 007");
     }
 }

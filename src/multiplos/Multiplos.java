@@ -17,17 +17,15 @@ public class Multiplos {
         
         for(numi=1; numi<max; numi++)
         {
-            if ((numi%num1==0) || numi%num2==0){
+            if ((numi%num1==0) || numi%num2==0)
+         {
             //System.out.println("el numero " + numi + " es primo de 3");
             sum += numi;
             multiplos.add(numi);        
          }
-        else{
-            System.out.println("El numero " + numi + " no es primo de 3");
-            }
         }
-         System.out.println("Los números multiplos son " + multiplos);
+         //System.out.println("Los números multiplos son " + multiplos);
          System.out.println("El resultado es "+ sum);
-         System.out.println("Sistema editado v2");
+         System.out.println("Agregando comentario en rama modify, y eliminando else");
     }
 }

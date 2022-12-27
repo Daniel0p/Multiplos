@@ -22,14 +22,10 @@ public class Multiplos {
             sum += numi;
             multiplos.add(numi);        
          }
-        else{
-            System.out.println("El numero " + numi + " no es primo de 3");
-            }
         }
          System.out.println("Los números multiplos son " + multiplos);
          System.out.println("El resultado es "+ sum);
-         System.out.println("Sistema editado v2");
          
-         System.out.println("Agregando comentario en rama modify");
+         System.out.println("Agregando comentario en rama modify, y eliminando else");
     }
 }

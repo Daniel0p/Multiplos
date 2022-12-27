@@ -23,7 +23,7 @@ public class Multiplos {
             multiplos.add(numi);        
          }
         else{
-            //System.out.println("El numero " + numi + " no es primo de 3");
+            System.out.println("El numero " + numi + " no es primo de 3");
             }
         }
          System.out.println("Los números multiplos son " + multiplos);
